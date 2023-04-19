@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div><a class="nav-link" href="home.html">Home</a></div>
+        <div><a class="nav-link" href="contact.html">Contact</a></div>
+        <div><a class="nav-link" href="external-pages.html">External Pages</a></div>
+        <div><a class="nav-link" href="examples.html">Examples</a></div>
+      </nav>
+    </header>
+    <main>
+      <form action="submit" method="post">
+        <fieldset class="contact">
+          <legend>Send Me A Message</legend>
+
+          <label for="fullName">Full Name</label>
+          <input type="text" name="full-name" id="fullName">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <div>
+          <input type="checkbox" name="direct-comm" id="directComm">
+          <label for="directComm" id="directCommLbl">Communicate with me directly?</label>
+          </div>
+          <label for="message" id="messageLbl">Message:</label>
+          <textarea name="message" id="message" cols="50" rows="20"></textarea>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
