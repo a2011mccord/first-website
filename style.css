@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .nav-bar {
@@ -16,9 +20,14 @@
   width: 25%;
 }
 
+.nav-link {
+  text-decoration: none;
+}
+
 h1,
 .subtitle {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
