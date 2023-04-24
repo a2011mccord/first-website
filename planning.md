@@ -5,9 +5,9 @@
 5. ✅ Use CSS to position elements of the first page.
 6. ✅ Repeat steps 3. and 4. for remaining pages of the website.
 7. ✅ Commit initial setup and push to GitHub.
-8. Update CSS to apply color scheme and fonts.
-9. Polish up CSS with any ideas to make the website more appealing.
-10. Commit final project and push to GitHub.
+8. ✅Update CSS to apply color scheme and fonts.
+9. ✅Polish up CSS with any ideas to make the website more appealing.
+10. ✅Commit final project and push to GitHub.
 
 Potential color schemes
 A:
@@ -22,3 +22,7 @@ B:
   Periwinkle - ADB4E7
   Ultra violet - 534F82
   Space cadet - 262D49
+
+Fonts:
+  Montserrat 500 - @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  Fira Sans 400 - @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
